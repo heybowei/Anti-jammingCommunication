@@ -1,0 +1,87 @@
+[
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_mmwave_bw_EXPORTS -I/home/cnss/gr-mmwave_bw/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -o CMakeFiles/gnuradio-mmwave_bw.dir/tx_qam_source_rand_impl.cc.o -c /home/cnss/gr-mmwave_bw/lib/tx_qam_source_rand_impl.cc",
+  "file": "/home/cnss/gr-mmwave_bw/lib/tx_qam_source_rand_impl.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_mmwave_bw_EXPORTS -I/home/cnss/gr-mmwave_bw/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -o CMakeFiles/gnuradio-mmwave_bw.dir/tx_freq_frame_impl.cc.o -c /home/cnss/gr-mmwave_bw/lib/tx_freq_frame_impl.cc",
+  "file": "/home/cnss/gr-mmwave_bw/lib/tx_freq_frame_impl.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_mmwave_bw_EXPORTS -I/home/cnss/gr-mmwave_bw/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -o CMakeFiles/gnuradio-mmwave_bw.dir/tx_ifft_impl.cc.o -c /home/cnss/gr-mmwave_bw/lib/tx_ifft_impl.cc",
+  "file": "/home/cnss/gr-mmwave_bw/lib/tx_ifft_impl.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_mmwave_bw_EXPORTS -I/home/cnss/gr-mmwave_bw/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -o CMakeFiles/gnuradio-mmwave_bw.dir/tx_time_frame_impl.cc.o -c /home/cnss/gr-mmwave_bw/lib/tx_time_frame_impl.cc",
+  "file": "/home/cnss/gr-mmwave_bw/lib/tx_time_frame_impl.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_mmwave_bw_EXPORTS -I/home/cnss/gr-mmwave_bw/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -o CMakeFiles/gnuradio-mmwave_bw.dir/rx_frame_detect_impl.cc.o -c /home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.cc",
+  "file": "/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_mmwave_bw_EXPORTS -I/home/cnss/gr-mmwave_bw/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -o CMakeFiles/gnuradio-mmwave_bw.dir/rx_fft_impl.cc.o -c /home/cnss/gr-mmwave_bw/lib/rx_fft_impl.cc",
+  "file": "/home/cnss/gr-mmwave_bw/lib/rx_fft_impl.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_mmwave_bw_EXPORTS -I/home/cnss/gr-mmwave_bw/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -o CMakeFiles/gnuradio-mmwave_bw.dir/rx_frame_equalization_csi_impl.cc.o -c /home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.cc",
+  "file": "/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/lib",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dgnuradio_mmwave_bw_EXPORTS -I/home/cnss/gr-mmwave_bw/lib/../include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -o CMakeFiles/gnuradio-mmwave_bw.dir/rx_deqam_impl.cc.o -c /home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.cc",
+  "file": "/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dmmwave_bw_python_EXPORTS -I/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../lib -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../include -I/home/cnss/gr-mmwave_bw/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/mmwave_bw_python.dir/tx_qam_source_rand_python.cc.o -c /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/tx_qam_source_rand_python.cc",
+  "file": "/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/tx_qam_source_rand_python.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dmmwave_bw_python_EXPORTS -I/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../lib -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../include -I/home/cnss/gr-mmwave_bw/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/mmwave_bw_python.dir/tx_freq_frame_python.cc.o -c /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/tx_freq_frame_python.cc",
+  "file": "/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/tx_freq_frame_python.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dmmwave_bw_python_EXPORTS -I/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../lib -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../include -I/home/cnss/gr-mmwave_bw/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/mmwave_bw_python.dir/tx_ifft_python.cc.o -c /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/tx_ifft_python.cc",
+  "file": "/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/tx_ifft_python.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dmmwave_bw_python_EXPORTS -I/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../lib -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../include -I/home/cnss/gr-mmwave_bw/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/mmwave_bw_python.dir/tx_time_frame_python.cc.o -c /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/tx_time_frame_python.cc",
+  "file": "/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/tx_time_frame_python.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dmmwave_bw_python_EXPORTS -I/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../lib -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../include -I/home/cnss/gr-mmwave_bw/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/mmwave_bw_python.dir/rx_frame_detect_python.cc.o -c /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/rx_frame_detect_python.cc",
+  "file": "/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/rx_frame_detect_python.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dmmwave_bw_python_EXPORTS -I/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../lib -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../include -I/home/cnss/gr-mmwave_bw/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/mmwave_bw_python.dir/rx_fft_python.cc.o -c /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/rx_fft_python.cc",
+  "file": "/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/rx_fft_python.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dmmwave_bw_python_EXPORTS -I/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../lib -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../include -I/home/cnss/gr-mmwave_bw/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/mmwave_bw_python.dir/rx_frame_equalization_csi_python.cc.o -c /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/rx_frame_equalization_csi_python.cc",
+  "file": "/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/rx_frame_equalization_csi_python.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dmmwave_bw_python_EXPORTS -I/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../lib -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../include -I/home/cnss/gr-mmwave_bw/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/mmwave_bw_python.dir/rx_deqam_python.cc.o -c /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/rx_deqam_python.cc",
+  "file": "/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/rx_deqam_python.cc"
+},
+{
+  "directory": "/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DGR_MPLIB_GMP -DGR_PERFORMANCE_COUNTERS -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -Dmmwave_bw_python_EXPORTS -I/home/cnss/gr-mmwave_bw/build/python/mmwave_bw/bindings -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../lib -I/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/../../../include -I/home/cnss/gr-mmwave_bw/lib/../include -isystem /usr/include/python3.10 -isystem /usr/lib/python3/dist-packages/numpy/core/include  -fvisibility=hidden -Wsign-compare -Wall -Wno-uninitialized -O3 -DNDEBUG -fPIC -fvisibility=hidden -Wno-unused-variable -flto -fno-fat-lto-objects -o CMakeFiles/mmwave_bw_python.dir/python_bindings.cc.o -c /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/python_bindings.cc",
+  "file": "/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/python_bindings.cc"
+}
+]

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_51332c718cae59f128e42fde17cd3629" kind="dir">
+    <compoundname>bindings</compoundname>
+    <innerdir refid="dir_3f1978cb773587408f2f2bd2f3586c09">docstrings</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/"/>
+  </compounddef>
+</doxygen>

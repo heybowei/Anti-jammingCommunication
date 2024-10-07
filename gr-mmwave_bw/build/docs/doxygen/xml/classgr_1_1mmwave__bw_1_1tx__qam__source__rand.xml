@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mmwave__bw_1_1tx__qam__source__rand" kind="class" language="C++" prot="public">
+    <compoundname>gr::mmwave_bw::tx_qam_source_rand</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl" prot="public" virt="non-virtual">gr::mmwave_bw::tx_qam_source_rand_impl</derivedcompoundref>
+    <includes refid="tx__qam__source__rand_8h" local="no">tx_qam_source_rand.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1mmwave__bw_1_1tx__qam__source__rand_1a480ddfda7b479444e7945a1afd932fd3" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand" kindref="compound">tx_qam_source_rand</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;tx_qam_source_rand&gt; gr::mmwave_bw::tx_qam_source_rand::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_qam_source_rand.h" line="25" column="31" bodyfile="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_qam_source_rand.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__qam__source__rand_1abe4f763c2229af03dcbdbfa17b3c3c27" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand_1a480ddfda7b479444e7945a1afd932fd3" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::mmwave_bw::tx_qam_source_rand::make</definition>
+        <argsstring>(int num_of_qam=0)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>num_of_qam</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand" kindref="compound">mmwave_bw::tx_qam_source_rand</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand" kindref="compound">mmwave_bw::tx_qam_source_rand</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand_1abe4f763c2229af03dcbdbfa17b3c3c27" kindref="member">mmwave_bw::tx_qam_source_rand::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_qam_source_rand.h" line="35" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::mmwave_bw::tx_qam_source_rand_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::tx_qam_source_rand</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::tx_qam_source_rand</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_qam_source_rand.h" line="22" column="5" bodyfile="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_qam_source_rand.h" bodystart="23" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand_1abe4f763c2229af03dcbdbfa17b3c3c27" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_qam_source_rand</scope><name>make</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand_1a480ddfda7b479444e7945a1afd932fd3" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_qam_source_rand</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

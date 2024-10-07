@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_e1f688075170f0238fae260400367f51" kind="dir">
+    <compoundname>mmwave_bw</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="rx__deqam_8h">rx_deqam.h</innerfile>
+    <innerfile refid="rx__fft_8h">rx_fft.h</innerfile>
+    <innerfile refid="rx__frame__detect_8h">rx_frame_detect.h</innerfile>
+    <innerfile refid="rx__frame__equalization__csi_8h">rx_frame_equalization_csi.h</innerfile>
+    <innerfile refid="tx__freq__frame_8h">tx_freq_frame.h</innerfile>
+    <innerfile refid="tx__ifft_8h">tx_ifft.h</innerfile>
+    <innerfile refid="tx__qam__source__rand_8h">tx_qam_source_rand.h</innerfile>
+    <innerfile refid="tx__time__frame_8h">tx_time_frame.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/"/>
+  </compounddef>
+</doxygen>

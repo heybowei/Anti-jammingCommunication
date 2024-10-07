@@ -1,0 +1,105 @@
+id: mmwave_bw_rx_frame_detect
+label: rx_frame_detect
+category: '[mmwave_bw]'
+
+templates:
+  imports: from gnuradio import mmwave_bw
+  make: mmwave_bw.rx_frame_detect(${num_ant}, ${num_stm}, ${samp_rate}, ${fft_size}, ${num_ofdm_per_frame}, ${vht_en}, ${project_en}, ${search_step_size}, ${noise_ampl_thres}, ${ltf_corr_thres}, ${freq_offset_en}, ${num_sc_pha_noise})
+
+#  Make one 'parameters' list entry for every parameter you want settable from the GUI.
+#     Keys include:
+#     * id (makes the value accessible as keyname, e.g. in the make entry)
+#     * label (label shown in the GUI)
+#     * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
+#     * default
+parameters:
+- id: num_ant
+  label: num_ant
+  dtype: int 
+  default: num_ant
+- id: num_stm
+  label: num_stream
+  dtype: int 
+  default: 1  
+- id: samp_rate
+  label: samp_rate
+  dtype: float 
+  default: samp_rate
+- id: fft_size
+  label: fft_size
+  dtype: int 
+  default: fft_size
+- id: num_ofdm_per_frame
+  label: num_ofdm_per_frame
+  dtype: int 
+  default: num_ofdm_per_frame  
+- id: vht_en
+  label: VHT preamble
+  dtype: int
+  default: vht_en 
+  options: [0, 1]
+  option_labels: [disable, enable]   
+- id: project_en
+  label: projection for sync
+  dtype: int 
+  default: 0
+  options: [0, 1]
+  option_labels: [disable, enable] 
+- id: search_step_size
+  label: search_step_size
+  dtype: int 
+  default: 2
+  options: [1, 2, 3, 4, 5, 6]  
+- id: noise_ampl_thres
+  label: noise threshold
+  dtype: float 
+  default: 0.015
+  options: [0.001, 0.002, 0.004, 0.008, 0.01, 0.02, 0.04, 0.08]    
+- id: ltf_corr_thres
+  label: ltf_corr_thres
+  dtype: float  
+  default: 0.55
+- id: freq_offset_en
+  label: freq offset correction
+  dtype: int 
+  default: 1 
+  options: [0, 1]
+  option_labels: [enable, disable]
+- id: num_sc_pha_noise
+  label: phase noise guard
+  dtype: int
+  default: num_sc_pha_noise    
+  options: [0, 1, 2, 3, 4, 5, 6] 
+  option_labels: [no, 1 sc, 2 sc, 3 sc, 4 sc, 5 sc, 6 sc] 
+- id: option
+  label: option
+  dtype: int 
+  default: 0
+#- id: ...
+#  label: ...
+#  dtype: ...
+
+#  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
+#  Keys include:
+#      * label (an identifier for the GUI)
+#      * domain (optional - stream or message. Default is stream)
+#      * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
+#      * vlen (optional - data stream vector length. Default is 1)
+#      * optional (optional - set to 1 for optional inputs. Default is 0)
+inputs:
+- label: in
+  domain: stream
+  dtype: complex
+  vlen: 1
+  multiplicity: ${num_ant}
+
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+  vlen: 1
+  multiplicity: ${num_ant}
+
+#  'file_format' specifies the version of the GRC yml format used in the file
+#  and should usually not be changed.
+file_format: 1

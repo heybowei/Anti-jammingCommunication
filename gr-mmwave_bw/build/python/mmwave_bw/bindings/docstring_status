@@ -1,0 +1,16 @@
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/rx_frame_equalization_csi_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/rx_frame_equalization_csi_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/rx_deqam_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/rx_deqam_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/rx_frame_detect_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/rx_frame_detect_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/rx_fft_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/rx_fft_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/tx_qam_source_rand_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/tx_qam_source_rand_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/tx_ifft_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/tx_ifft_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/tx_time_frame_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/tx_time_frame_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/tx_freq_frame_pydoc_template.h
+PASS: /home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/tx_freq_frame_pydoc_template.h

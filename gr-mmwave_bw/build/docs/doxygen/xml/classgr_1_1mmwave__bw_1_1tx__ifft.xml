@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mmwave__bw_1_1tx__ifft" kind="class" language="C++" prot="public">
+    <compoundname>gr::mmwave_bw::tx_ifft</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1mmwave__bw_1_1tx__ifft__impl" prot="public" virt="non-virtual">gr::mmwave_bw::tx_ifft_impl</derivedcompoundref>
+    <includes refid="tx__ifft_8h" local="no">tx_ifft.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1mmwave__bw_1_1tx__ifft_1a5081109555b5f62fd7544669d9f98b63" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1mmwave__bw_1_1tx__ifft" kindref="compound">tx_ifft</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;tx_ifft&gt; gr::mmwave_bw::tx_ifft::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_ifft.h" line="25" column="31" bodyfile="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_ifft.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__ifft_1a6e8a608524afe2379cf7f6064cf9d433" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1mmwave__bw_1_1tx__ifft_1a5081109555b5f62fd7544669d9f98b63" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::mmwave_bw::tx_ifft::make</definition>
+        <argsstring>(int fft_size_)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>fft_size_</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1mmwave__bw_1_1tx__ifft" kindref="compound">mmwave_bw::tx_ifft</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1mmwave__bw_1_1tx__ifft" kindref="compound">mmwave_bw::tx_ifft</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1mmwave__bw_1_1tx__ifft_1a6e8a608524afe2379cf7f6064cf9d433" kindref="member">mmwave_bw::tx_ifft::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_ifft.h" line="35" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::mmwave_bw::tx_ifft</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__ifft"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::mmwave_bw::tx_ifft_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__ifft__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::mmwave_bw::tx_ifft</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__ifft"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_ifft.h" line="22" column="5" bodyfile="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_ifft.h" bodystart="23" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__ifft_1a6e8a608524afe2379cf7f6064cf9d433" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_ifft</scope><name>make</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__ifft_1a5081109555b5f62fd7544669d9f98b63" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_ifft</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

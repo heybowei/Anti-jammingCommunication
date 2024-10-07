@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="tx__qam__source__rand_8h" kind="file" language="C++">
+    <compoundname>tx_qam_source_rand.h</compoundname>
+    <includes refid="api_8h" local="no">gnuradio/mmwave_bw/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="tx__qam__source__rand__impl_8h" local="no">tx_qam_source_rand_impl.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>gnuradio/mmwave_bw/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="3">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="1">
+        <label>tx_qam_source_rand.h</label>
+        <link refid="tx__qam__source__rand_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>tx_qam_source_rand_impl.h</label>
+        <link refid="tx__qam__source__rand__impl_8h"/>
+      </node>
+      <node id="1">
+        <label>tx_qam_source_rand.h</label>
+        <link refid="tx__qam__source__rand_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand" prot="public">gr::mmwave_bw::tx_qam_source_rand</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1mmwave__bw">gr::mmwave_bw</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_qam_source_rand.h"/>
+  </compounddef>
+</doxygen>

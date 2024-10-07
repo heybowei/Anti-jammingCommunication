@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="para_8h">para.h</innerfile>
+    <innerfile refid="rx__deqam__impl_8h">rx_deqam_impl.h</innerfile>
+    <innerfile refid="rx__fft__impl_8h">rx_fft_impl.h</innerfile>
+    <innerfile refid="rx__frame__detect__impl_8h">rx_frame_detect_impl.h</innerfile>
+    <innerfile refid="rx__frame__equalization__csi__impl_8h">rx_frame_equalization_csi_impl.h</innerfile>
+    <innerfile refid="tx__freq__frame__impl_8h">tx_freq_frame_impl.h</innerfile>
+    <innerfile refid="tx__ifft__impl_8h">tx_ifft_impl.h</innerfile>
+    <innerfile refid="tx__qam__source__rand__impl_8h">tx_qam_source_rand_impl.h</innerfile>
+    <innerfile refid="tx__time__frame__impl_8h">tx_time_frame_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cnss/gr-mmwave_bw/lib/"/>
+  </compounddef>
+</doxygen>

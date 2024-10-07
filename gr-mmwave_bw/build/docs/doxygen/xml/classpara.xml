@@ -1,0 +1,501 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classpara" kind="class" language="C++" prot="public">
+    <compoundname>para</compoundname>
+    <includes refid="para_8h" local="no">para.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classpara_1a5b462d0659a8ba1dc7d1214ac4576af4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::num_ant</definition>
+        <argsstring></argsstring>
+        <name>num_ant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="42" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1a887d56e41604166128a4d301f5d3a23d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::fft_size</definition>
+        <argsstring></argsstring>
+        <name>fft_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="43" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1abe697a5bfdb9b749788c155b0b710b14" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::num_ofdm_per_frame</definition>
+        <argsstring></argsstring>
+        <name>num_ofdm_per_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="44" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1a246c2ab50b2a95688fd6a88f31b9ed50" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::num_sc_pha_noise</definition>
+        <argsstring></argsstring>
+        <name>num_sc_pha_noise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="45" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1aec4ad8c7876143f179cc43df7979b889" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::num_payload_ofdm_per_frame</definition>
+        <argsstring></argsstring>
+        <name>num_payload_ofdm_per_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="46" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1a68001640fbffbe8415eb0f62885611ea" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::vht_en</definition>
+        <argsstring></argsstring>
+        <name>vht_en</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="47" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1a5d82b4c07fc3f1c40a00df6d94d9f3e7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::num_preamble_ofdm_per_frame</definition>
+        <argsstring></argsstring>
+        <name>num_preamble_ofdm_per_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="48" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1a470edad65f306d569a9ef14ae2078493" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::num_samp_per_frame</definition>
+        <argsstring></argsstring>
+        <name>num_samp_per_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="49" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1a4bd61e4b8883d111a037e44e3a68f246" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::cp_len</definition>
+        <argsstring></argsstring>
+        <name>cp_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="50" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1aa8497526c68738d2c299a71bad702bc2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::ofdm_size</definition>
+        <argsstring></argsstring>
+        <name>ofdm_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="51" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1a19ebdbd2b87255d8eb8fa5f2cb69fd32" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int para::num_total_ofdm_per_frame</definition>
+        <argsstring></argsstring>
+        <name>num_total_ofdm_per_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="52" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1adf5d3150992a0e282f852fc42b29608b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float para::samp_rate</definition>
+        <argsstring></argsstring>
+        <name>samp_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="53" column="7" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1a16473a556ed0b947e931f1c2cb22f54c" prot="public" static="no" mutable="no">
+        <type>const gr_complex</type>
+        <definition>const gr_complex para::pilot</definition>
+        <argsstring></argsstring>
+        <name>pilot</name>
+        <initializer>=gr_complex(1.7,0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="68" column="18" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1a08477f74d130f3151a1a67db603cb6ca" prot="public" static="no" mutable="no">
+        <type>default_random_engine</type>
+        <definition>default_random_engine para::generator</definition>
+        <argsstring></argsstring>
+        <name>generator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="89" column="23" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classpara_1a95e6a987ebc393a6b59277037947bc3b" prot="public" static="no" mutable="no">
+        <type>uniform_real_distribution&lt; double &gt;</type>
+        <definition>uniform_real_distribution&lt;double&gt; para::distribution</definition>
+        <argsstring></argsstring>
+        <name>distribution</name>
+        <initializer>{0.0,1.0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="90" column="33" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classpara_1a0d15f94be31d4244f465a46a71eb4546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_2</definition>
+        <argsstring>(float) freq_pilot</argsstring>
+        <name>vec_2</name>
+        <param>
+          <type>float</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1ae6a8d60f5463287f093858cd6d5b12e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_1</definition>
+        <argsstring>(int) pilot_sc_np</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1a641ccf5a8d756e55e343e60912d623c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_1</definition>
+        <argsstring>(int) pilot_sc</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1a694085931c508550887fc829264c1e12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_1</definition>
+        <argsstring>(int) payload_sc_np</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1aecf538899b9578cf2fc7414f0d6878f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_1</definition>
+        <argsstring>(int) payload_sc</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1ac98999d0194e06ec8424abfd35f1fb70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_1</definition>
+        <argsstring>(int) valid_sc_np</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1aaff70c7c039b8a39b1e8cb964b5724ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_1</definition>
+        <argsstring>(int) valid_sc</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1a6dd4e1cd2d28d68a48e6cf7b74787ba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_1</definition>
+        <argsstring>(float) time_pilot</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type>float</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1a6f608ca0e918876a54327b399d48ea3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_1</definition>
+        <argsstring>(cpx) time_frame_f</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type><ref refid="para_8h_1a012ab219a16e5eed65c0644a719ffb82" kindref="member">cpx</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1a29a680fe4bf240b7c42eeade51fb2583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_1</definition>
+        <argsstring>(cpx) time_frame</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type><ref refid="para_8h_1a012ab219a16e5eed65c0644a719ffb82" kindref="member">cpx</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1a3003eab3db79e5550c65017c2a14f96d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>para::vec_1</definition>
+        <argsstring>(cpx) time_frame_cp</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type><ref refid="para_8h_1a012ab219a16e5eed65c0644a719ffb82" kindref="member">cpx</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1a7cbee12e2d207fd6becee57bd943b4c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void para::initialize</definition>
+        <argsstring>(int num_ant_, float samp_rate_, int fft_size_, int num_ofdm_per_frame_, int vht_en_, int num_sc_pha_noise_)</argsstring>
+        <name>initialize</name>
+        <param>
+          <type>int</type>
+          <declname>num_ant_</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samp_rate_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fft_size_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_ofdm_per_frame_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vht_en_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_sc_pha_noise_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="96" column="6" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="96" bodyend="158"/>
+        <references refid="para_8h_1a012ab219a16e5eed65c0644a719ffb82" compoundref="para_8h" startline="14">cpx</references>
+        <references refid="para_8h_1a41a87cc9abf978d48b710d72aa1b05b2" compoundref="para_8h" startline="30">new_vec_1</references>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1a02fc527574a223c4228d17f84acaf3de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float para::randnum</definition>
+        <argsstring>(int min_, int max_)</argsstring>
+        <name>randnum</name>
+        <param>
+          <type>int</type>
+          <declname>min_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>max_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="160" column="7" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="160" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classpara_1aefc4f6c9685a08f18a1d255834295f94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void para::writefile</definition>
+        <argsstring>(char *filename, auto data)</argsstring>
+        <name>writefile</name>
+        <param>
+          <type>char *</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>auto</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="167" column="6" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="167" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="40" column="1" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="40" bodyend="175"/>
+    <listofallmembers>
+      <member refid="classpara_1a4bd61e4b8883d111a037e44e3a68f246" prot="public" virt="non-virtual"><scope>para</scope><name>cp_len</name></member>
+      <member refid="classpara_1a95e6a987ebc393a6b59277037947bc3b" prot="public" virt="non-virtual"><scope>para</scope><name>distribution</name></member>
+      <member refid="classpara_1a887d56e41604166128a4d301f5d3a23d" prot="public" virt="non-virtual"><scope>para</scope><name>fft_size</name></member>
+      <member refid="classpara_1a08477f74d130f3151a1a67db603cb6ca" prot="public" virt="non-virtual"><scope>para</scope><name>generator</name></member>
+      <member refid="classpara_1a7cbee12e2d207fd6becee57bd943b4c2" prot="public" virt="non-virtual"><scope>para</scope><name>initialize</name></member>
+      <member refid="classpara_1a5b462d0659a8ba1dc7d1214ac4576af4" prot="public" virt="non-virtual"><scope>para</scope><name>num_ant</name></member>
+      <member refid="classpara_1abe697a5bfdb9b749788c155b0b710b14" prot="public" virt="non-virtual"><scope>para</scope><name>num_ofdm_per_frame</name></member>
+      <member refid="classpara_1aec4ad8c7876143f179cc43df7979b889" prot="public" virt="non-virtual"><scope>para</scope><name>num_payload_ofdm_per_frame</name></member>
+      <member refid="classpara_1a5d82b4c07fc3f1c40a00df6d94d9f3e7" prot="public" virt="non-virtual"><scope>para</scope><name>num_preamble_ofdm_per_frame</name></member>
+      <member refid="classpara_1a470edad65f306d569a9ef14ae2078493" prot="public" virt="non-virtual"><scope>para</scope><name>num_samp_per_frame</name></member>
+      <member refid="classpara_1a246c2ab50b2a95688fd6a88f31b9ed50" prot="public" virt="non-virtual"><scope>para</scope><name>num_sc_pha_noise</name></member>
+      <member refid="classpara_1a19ebdbd2b87255d8eb8fa5f2cb69fd32" prot="public" virt="non-virtual"><scope>para</scope><name>num_total_ofdm_per_frame</name></member>
+      <member refid="classpara_1aa8497526c68738d2c299a71bad702bc2" prot="public" virt="non-virtual"><scope>para</scope><name>ofdm_size</name></member>
+      <member refid="classpara_1a16473a556ed0b947e931f1c2cb22f54c" prot="public" virt="non-virtual"><scope>para</scope><name>pilot</name></member>
+      <member refid="classpara_1a02fc527574a223c4228d17f84acaf3de" prot="public" virt="non-virtual"><scope>para</scope><name>randnum</name></member>
+      <member refid="classpara_1adf5d3150992a0e282f852fc42b29608b" prot="public" virt="non-virtual"><scope>para</scope><name>samp_rate</name></member>
+      <member refid="classpara_1ae6a8d60f5463287f093858cd6d5b12e0" prot="public" virt="non-virtual"><scope>para</scope><name>vec_1</name></member>
+      <member refid="classpara_1a641ccf5a8d756e55e343e60912d623c0" prot="public" virt="non-virtual"><scope>para</scope><name>vec_1</name></member>
+      <member refid="classpara_1a694085931c508550887fc829264c1e12" prot="public" virt="non-virtual"><scope>para</scope><name>vec_1</name></member>
+      <member refid="classpara_1aecf538899b9578cf2fc7414f0d6878f7" prot="public" virt="non-virtual"><scope>para</scope><name>vec_1</name></member>
+      <member refid="classpara_1ac98999d0194e06ec8424abfd35f1fb70" prot="public" virt="non-virtual"><scope>para</scope><name>vec_1</name></member>
+      <member refid="classpara_1aaff70c7c039b8a39b1e8cb964b5724ae" prot="public" virt="non-virtual"><scope>para</scope><name>vec_1</name></member>
+      <member refid="classpara_1a6dd4e1cd2d28d68a48e6cf7b74787ba2" prot="public" virt="non-virtual"><scope>para</scope><name>vec_1</name></member>
+      <member refid="classpara_1a6f608ca0e918876a54327b399d48ea3d" prot="public" virt="non-virtual"><scope>para</scope><name>vec_1</name></member>
+      <member refid="classpara_1a29a680fe4bf240b7c42eeade51fb2583" prot="public" virt="non-virtual"><scope>para</scope><name>vec_1</name></member>
+      <member refid="classpara_1a3003eab3db79e5550c65017c2a14f96d" prot="public" virt="non-virtual"><scope>para</scope><name>vec_1</name></member>
+      <member refid="classpara_1a0d15f94be31d4244f465a46a71eb4546" prot="public" virt="non-virtual"><scope>para</scope><name>vec_2</name></member>
+      <member refid="classpara_1a68001640fbffbe8415eb0f62885611ea" prot="public" virt="non-virtual"><scope>para</scope><name>vht_en</name></member>
+      <member refid="classpara_1aefc4f6c9685a08f18a1d255834295f94" prot="public" virt="non-virtual"><scope>para</scope><name>writefile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

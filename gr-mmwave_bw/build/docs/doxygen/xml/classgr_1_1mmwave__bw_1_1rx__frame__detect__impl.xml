@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mmwave_bw::rx_frame_detect_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mmwave__bw_1_1rx__frame__detect" prot="public" virt="non-virtual">gr::mmwave_bw::rx_frame_detect</basecompoundref>
+    <includes refid="rx__frame__detect__impl_8h" local="no">rx_frame_detect_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a31d284e8ae7077d3f845eaecf71a0be5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::mmwave_bw::rx_frame_detect_impl::noise_ampl_thres</definition>
+        <argsstring></argsstring>
+        <name>noise_ampl_thres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="28" column="14" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1aab10a9ea9cb62c221dc516895a624b57" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::rx_frame_detect_impl::search_len</definition>
+        <argsstring></argsstring>
+        <name>search_len</name>
+        <initializer>=100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="29" column="12" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a5f4b07930d86e78d4fdc3d7c2d596495" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::rx_frame_detect_impl::signal_start</definition>
+        <argsstring></argsstring>
+        <name>signal_start</name>
+        <initializer>=0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="30" column="12" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a9750e8e05a8e90e3204aeeed325b3271" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::mmwave_bw::rx_frame_detect_impl::in[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="31" column="19" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a473b7f1d0f3b48407824b88cf7fb9db5" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::mmwave_bw::rx_frame_detect_impl::out[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="32" column="19" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a91723026b7636f560b7357630b9aa937" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::rx_frame_detect_impl::start_index</definition>
+        <argsstring></argsstring>
+        <name>start_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="33" column="12" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1af90672f4c59c0498532ddc00a3a80306" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::mmwave_bw::rx_frame_detect_impl::max_val</definition>
+        <argsstring></argsstring>
+        <name>max_val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="34" column="14" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1af3126cab76734805473e0f20b9896dcf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::rx_frame_detect_impl::project_en</definition>
+        <argsstring></argsstring>
+        <name>project_en</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="35" column="12" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1abcef5354c35f071313760ce000aeafc6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::rx_frame_detect_impl::freq_offset_en</definition>
+        <argsstring></argsstring>
+        <name>freq_offset_en</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="36" column="12" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a0cc6dc0c8eee3b457c42430ce05268dc" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::mmwave_bw::rx_frame_detect_impl::ltf_corr_thres</definition>
+        <argsstring></argsstring>
+        <name>ltf_corr_thres</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="37" column="14" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1ab81767c789f8570a6c97fce784b9d047" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::mmwave_bw::rx_frame_detect_impl::freq_offset</definition>
+        <argsstring></argsstring>
+        <name>freq_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="38" column="14" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a3bdc17feb4bc35041332f1c750073188" prot="private" static="no" mutable="no">
+        <type><ref refid="classpara" kindref="compound">para</ref></type>
+        <definition>para gr::mmwave_bw::rx_frame_detect_impl::p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="39" column="13" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a678cd8de6a1c5a4418326ca7fcbb7c06" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_frame_detect_impl::vec_1</definition>
+        <argsstring>(float) c_num</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type>float</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="27" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a9203c05b85e0369b71054c18c452d77a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_frame_detect_impl::rx_frame_detect_impl</definition>
+        <argsstring>(int num_ant, int num_stm, float samp_rate, int fft_size, int num_ofdm_per_frame, int vht_en, int project_en, int search_step_size, float noise_ampl_thres, float ltf_corr_thres, int freq_offset_en, int num_sc_pha_noise)</argsstring>
+        <name>rx_frame_detect_impl</name>
+        <param>
+          <type>int</type>
+          <declname>num_ant</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_stm</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fft_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_ofdm_per_frame</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vht_en</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>project_en</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>search_step_size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>noise_ampl_thres</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ltf_corr_thres</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>freq_offset_en</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_sc_pha_noise</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="42" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a33303a50c89f631a9d76e57742dd11a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_frame_detect_impl::~rx_frame_detect_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~rx_frame_detect_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="43" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a8f9d26dbca09a379505dd7f1e331996d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mmwave_bw::rx_frame_detect_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="46" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1aef9df31fc7f0f14d9b3965b3f82a7d39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::rx_frame_detect_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="48" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1acd1a645f7238e32a0e806ede8ca9c63e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mmwave_bw::rx_frame_detect_impl::find_preamble</definition>
+        <argsstring>()</argsstring>
+        <name>find_preamble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="52" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1aca5d998185b10ce4da313168650f6dba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mmwave_bw::rx_frame_detect_impl::freq_offset_estimation</definition>
+        <argsstring>(int start_index)</argsstring>
+        <name>freq_offset_estimation</name>
+        <param>
+          <type>int</type>
+          <declname>start_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="53" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::mmwave_bw::rx_frame_detect</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__detect"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::rx_frame_detect_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::mmwave_bw::rx_frame_detect</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__detect"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::rx_frame_detect_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" line="24" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_detect_impl.h" bodystart="25" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1acd1a645f7238e32a0e806ede8ca9c63e" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>find_preamble</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a8f9d26dbca09a379505dd7f1e331996d" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1ab81767c789f8570a6c97fce784b9d047" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>freq_offset</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1abcef5354c35f071313760ce000aeafc6" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>freq_offset_en</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1aca5d998185b10ce4da313168650f6dba" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>freq_offset_estimation</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1aef9df31fc7f0f14d9b3965b3f82a7d39" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a9750e8e05a8e90e3204aeeed325b3271" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>in</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a0cc6dc0c8eee3b457c42430ce05268dc" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>ltf_corr_thres</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect_1ab56ec37ef6d3400dec6d38a746930c3a" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1af90672f4c59c0498532ddc00a3a80306" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>max_val</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a31d284e8ae7077d3f845eaecf71a0be5" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>noise_ampl_thres</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a473b7f1d0f3b48407824b88cf7fb9db5" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>out</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a3bdc17feb4bc35041332f1c750073188" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>p</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1af3126cab76734805473e0f20b9896dcf" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>project_en</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a9203c05b85e0369b71054c18c452d77a" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>rx_frame_detect_impl</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1aab10a9ea9cb62c221dc516895a624b57" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>search_len</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a5f4b07930d86e78d4fdc3d7c2d596495" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>signal_start</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect_1a1a005ba3d67dcdd9cdef217d550005a4" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a91723026b7636f560b7357630b9aa937" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>start_index</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a678cd8de6a1c5a4418326ca7fcbb7c06" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>vec_1</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl_1a33303a50c89f631a9d76e57742dd11a8" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect_impl</scope><name>~rx_frame_detect_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

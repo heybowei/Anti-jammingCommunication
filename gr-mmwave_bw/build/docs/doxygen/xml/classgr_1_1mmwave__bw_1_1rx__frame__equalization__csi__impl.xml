@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mmwave_bw::rx_frame_equalization_csi_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi" prot="public" virt="non-virtual">gr::mmwave_bw::rx_frame_equalization_csi</basecompoundref>
+    <includes refid="rx__frame__equalization__csi__impl_8h" local="no">rx_frame_equalization_csi_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1ac1ae8471a27c84d4622df44fd27ae4cc" prot="private" static="no" mutable="no">
+        <type><ref refid="classpara" kindref="compound">para</ref></type>
+        <definition>para gr::mmwave_bw::rx_frame_equalization_csi_impl::p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="20" column="12" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1a8d1ec362d3f19f6d7a69a6d0e62cc101" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::rx_frame_equalization_csi_impl::dec_alg</definition>
+        <argsstring></argsstring>
+        <name>dec_alg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="21" column="11" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1a6a1dd6942a7bf741fcfd4168d01d125b" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::mmwave_bw::rx_frame_equalization_csi_impl::in[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="24" column="19" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1aca2729bae50c0b8cd6b35e6d28b75eb8" prot="private" static="no" mutable="no">
+        <type>gr_complex *</type>
+        <definition>gr_complex* gr::mmwave_bw::rx_frame_equalization_csi_impl::out[9]</definition>
+        <argsstring>[9]</argsstring>
+        <name>out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="25" column="19" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1a115f13092f8c9cb889128a35440fe6c6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_frame_equalization_csi_impl::vec_2</definition>
+        <argsstring>(cpx) h</argsstring>
+        <name>vec_2</name>
+        <param>
+          <type><ref refid="para_8h_1a012ab219a16e5eed65c0644a719ffb82" kindref="member">cpx</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="22" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1a7dcbe05e1b91cf9e682f6c670e945412" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_frame_equalization_csi_impl::vec_1</definition>
+        <argsstring>(cpx) data</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type><ref refid="para_8h_1a012ab219a16e5eed65c0644a719ffb82" kindref="member">cpx</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="23" column="7"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1aaad08f88bc503b2a432330ae013a5f58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_frame_equalization_csi_impl::rx_frame_equalization_csi_impl</definition>
+        <argsstring>(int num_ant, int num_stm, float samp_rate, int fft_size, int num_ofdm_per_frame, int dec_alg, int step_size, int vht_en, int num_sc_pha_noise)</argsstring>
+        <name>rx_frame_equalization_csi_impl</name>
+        <param>
+          <type>int</type>
+          <declname>num_ant</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_stm</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fft_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_ofdm_per_frame</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dec_alg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>step_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vht_en</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_sc_pha_noise</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="27" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1afc5b2604c19b179d0fc46bd93890ee30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_frame_equalization_csi_impl::~rx_frame_equalization_csi_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~rx_frame_equalization_csi_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="28" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1aa70b17196e60431249089d6a7c2e1090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mmwave_bw::rx_frame_equalization_csi_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="31" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1ae4ab1fb9aed1cfe416df080f53de8e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::rx_frame_equalization_csi_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="33" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1a5eec6b1c0f6dbbe2063d96151424f7f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mmwave_bw::rx_frame_equalization_csi_impl::lft_based_mrc_equalization</definition>
+        <argsstring>()</argsstring>
+        <name>lft_based_mrc_equalization</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="37" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1ac77d23f63f99002df9bf71ddb6284001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mmwave_bw::rx_frame_equalization_csi_impl::phase_detect</definition>
+        <argsstring>()</argsstring>
+        <name>phase_detect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="38" column="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::mmwave_bw::rx_frame_equalization_csi</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::rx_frame_equalization_csi_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::mmwave_bw::rx_frame_equalization_csi</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::rx_frame_equalization_csi_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" line="17" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_frame_equalization_csi_impl.h" bodystart="18" bodyend="40"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1a8d1ec362d3f19f6d7a69a6d0e62cc101" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>dec_alg</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1aa70b17196e60431249089d6a7c2e1090" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1ae4ab1fb9aed1cfe416df080f53de8e6b" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1a6a1dd6942a7bf741fcfd4168d01d125b" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>in</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1a5eec6b1c0f6dbbe2063d96151424f7f5" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>lft_based_mrc_equalization</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi_1acdeaf96dd77460de6dc0d96cbf08f9d7" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1aca2729bae50c0b8cd6b35e6d28b75eb8" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>out</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1ac1ae8471a27c84d4622df44fd27ae4cc" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>p</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1ac77d23f63f99002df9bf71ddb6284001" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>phase_detect</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1aaad08f88bc503b2a432330ae013a5f58" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>rx_frame_equalization_csi_impl</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi_1abb0ff128d113b394ac597d9584e0e4d4" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1a7dcbe05e1b91cf9e682f6c670e945412" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>vec_1</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1a115f13092f8c9cb889128a35440fe6c6" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>vec_2</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__equalization__csi__impl_1afc5b2604c19b179d0fc46bd93890ee30" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_equalization_csi_impl</scope><name>~rx_frame_equalization_csi_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

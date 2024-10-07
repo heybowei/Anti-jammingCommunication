@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mmwave__bw_1_1tx__ifft__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mmwave_bw::tx_ifft_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mmwave__bw_1_1tx__ifft" prot="public" virt="non-virtual">gr::mmwave_bw::tx_ifft</basecompoundref>
+    <includes refid="tx__ifft__impl_8h" local="no">tx_ifft_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1tx__ifft__impl_1aff2f1ca6f968f472e223cd1b046ec98c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::tx_ifft_impl::fft_size</definition>
+        <argsstring></argsstring>
+        <name>fft_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/tx_ifft_impl.h" line="22" column="11" bodyfile="/home/cnss/gr-mmwave_bw/lib/tx_ifft_impl.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__ifft__impl_1a664f57588cbb4f9d6d838352c12a073c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::tx_ifft_impl::tx_ifft_impl</definition>
+        <argsstring>(int fft_size_)</argsstring>
+        <name>tx_ifft_impl</name>
+        <param>
+          <type>int</type>
+          <declname>fft_size_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/tx_ifft_impl.h" line="25" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__ifft__impl_1ac08893527e68f897bdba445da85e3604" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::tx_ifft_impl::~tx_ifft_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~tx_ifft_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/tx_ifft_impl.h" line="26" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__ifft__impl_1a0e1e487834e708c9ea055cf3f976f534" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mmwave_bw::tx_ifft_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/tx_ifft_impl.h" line="29" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__ifft__impl_1a284268f8fc6d3f8ca01c535b2660e4b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::tx_ifft_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/tx_ifft_impl.h" line="31" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::mmwave_bw::tx_ifft</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__ifft"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::tx_ifft_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__ifft__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::mmwave_bw::tx_ifft</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__ifft"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::tx_ifft_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__ifft__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cnss/gr-mmwave_bw/lib/tx_ifft_impl.h" line="19" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/tx_ifft_impl.h" bodystart="20" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__ifft__impl_1aff2f1ca6f968f472e223cd1b046ec98c" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::tx_ifft_impl</scope><name>fft_size</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__ifft__impl_1a0e1e487834e708c9ea055cf3f976f534" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_ifft_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__ifft__impl_1a284268f8fc6d3f8ca01c535b2660e4b3" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_ifft_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__ifft_1a6e8a608524afe2379cf7f6064cf9d433" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_ifft_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__ifft_1a5081109555b5f62fd7544669d9f98b63" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_ifft_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__ifft__impl_1a664f57588cbb4f9d6d838352c12a073c" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_ifft_impl</scope><name>tx_ifft_impl</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__ifft__impl_1ac08893527e68f897bdba445da85e3604" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_ifft_impl</scope><name>~tx_ifft_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

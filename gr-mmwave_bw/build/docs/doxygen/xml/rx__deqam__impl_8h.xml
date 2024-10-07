@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="rx__deqam__impl_8h" kind="file" language="C++">
+    <compoundname>rx_deqam_impl.h</compoundname>
+    <includes refid="rx__deqam_8h" local="no">gnuradio/mmwave_bw/rx_deqam.h</includes>
+    <includes refid="para_8h" local="yes">para.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>gnuradio/mmwave_bw/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>iterator</label>
+      </node>
+      <node id="4">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="13">
+        <label>armadillo</label>
+      </node>
+      <node id="2">
+        <label>gnuradio/mmwave_bw/rx_deqam.h</label>
+        <link refid="rx__deqam_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>fstream</label>
+      </node>
+      <node id="6">
+        <label>para.h</label>
+        <link refid="para_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>random</label>
+      </node>
+      <node id="7">
+        <label>vector</label>
+      </node>
+      <node id="5">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="8">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>rx_deqam_impl.h</label>
+        <link refid="rx__deqam__impl_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl" prot="public">gr::mmwave_bw::rx_deqam_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1mmwave__bw">gr::mmwave_bw</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h"/>
+  </compounddef>
+</doxygen>

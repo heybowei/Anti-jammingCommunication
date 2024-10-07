@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mmwave__bw_1_1rx__frame__detect" kind="class" language="C++" prot="public">
+    <compoundname>gr::mmwave_bw::rx_frame_detect</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl" prot="public" virt="non-virtual">gr::mmwave_bw::rx_frame_detect_impl</derivedcompoundref>
+    <includes refid="rx__frame__detect_8h" local="no">rx_frame_detect.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1mmwave__bw_1_1rx__frame__detect_1a1a005ba3d67dcdd9cdef217d550005a4" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1mmwave__bw_1_1rx__frame__detect" kindref="compound">rx_frame_detect</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;rx_frame_detect&gt; gr::mmwave_bw::rx_frame_detect::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/rx_frame_detect.h" line="25" column="31" bodyfile="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/rx_frame_detect.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__frame__detect_1ab56ec37ef6d3400dec6d38a746930c3a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1mmwave__bw_1_1rx__frame__detect_1a1a005ba3d67dcdd9cdef217d550005a4" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::mmwave_bw::rx_frame_detect::make</definition>
+        <argsstring>(int num_ant, int num_stm, float samp_rate, int fft_size, int num_ofdm_per_frame, int vht_en, int project_en, int search_step_size, float noise_ampl_thres, float ltf_corr_thres, int freq_offset_en, int num_sc_pha_noise)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>num_ant</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_stm</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fft_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_ofdm_per_frame</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vht_en</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>project_en</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>search_step_size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>noise_ampl_thres</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ltf_corr_thres</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>freq_offset_en</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_sc_pha_noise</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1mmwave__bw_1_1rx__frame__detect" kindref="compound">mmwave_bw::rx_frame_detect</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1mmwave__bw_1_1rx__frame__detect" kindref="compound">mmwave_bw::rx_frame_detect</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1mmwave__bw_1_1rx__frame__detect_1ab56ec37ef6d3400dec6d38a746930c3a" kindref="member">mmwave_bw::rx_frame_detect::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/rx_frame_detect.h" line="35" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::mmwave_bw::rx_frame_detect</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__detect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+      <node id="3">
+        <label>gr::mmwave_bw::rx_frame_detect_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__detect__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::mmwave_bw::rx_frame_detect</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__frame__detect"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/rx_frame_detect.h" line="22" column="5" bodyfile="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/rx_frame_detect.h" bodystart="23" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect_1ab56ec37ef6d3400dec6d38a746930c3a" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect</scope><name>make</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__frame__detect_1a1a005ba3d67dcdd9cdef217d550005a4" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_frame_detect</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

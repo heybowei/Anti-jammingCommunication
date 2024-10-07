@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mmwave__bw_1_1tx__freq__frame" kind="class" language="C++" prot="public">
+    <compoundname>gr::mmwave_bw::tx_freq_frame</compoundname>
+    <basecompoundref prot="public" virt="virtual">gr::block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1mmwave__bw_1_1tx__freq__frame__impl" prot="public" virt="non-virtual">gr::mmwave_bw::tx_freq_frame_impl</derivedcompoundref>
+    <includes refid="tx__freq__frame_8h" local="no">tx_freq_frame.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1mmwave__bw_1_1tx__freq__frame_1aef906d3a08c10612fea09031c085908d" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classgr_1_1mmwave__bw_1_1tx__freq__frame" kindref="compound">tx_freq_frame</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;tx_freq_frame&gt; gr::mmwave_bw::tx_freq_frame::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_freq_frame.h" line="25" column="31" bodyfile="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_freq_frame.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__freq__frame_1ac43ee3a59bc9c262467301b061cdffd8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1mmwave__bw_1_1tx__freq__frame_1aef906d3a08c10612fea09031c085908d" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::mmwave_bw::tx_freq_frame::make</definition>
+        <argsstring>(int num_ant_, float samp_rate, int fft_size_, int num_ofdm_per_frame_, int vht_en, int num_sc_pha_noise)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>num_ant_</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fft_size_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_ofdm_per_frame_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vht_en</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_sc_pha_noise</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1mmwave__bw_1_1tx__freq__frame" kindref="compound">mmwave_bw::tx_freq_frame</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1mmwave__bw_1_1tx__freq__frame" kindref="compound">mmwave_bw::tx_freq_frame</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1mmwave__bw_1_1tx__freq__frame_1ac43ee3a59bc9c262467301b061cdffd8" kindref="member">mmwave_bw::tx_freq_frame::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_freq_frame.h" line="35" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>gr::mmwave_bw::tx_freq_frame_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__freq__frame__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::tx_freq_frame</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__freq__frame"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::mmwave_bw::tx_freq_frame</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__freq__frame"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_freq_frame.h" line="22" column="5" bodyfile="/home/cnss/gr-mmwave_bw/include/gnuradio/mmwave_bw/tx_freq_frame.h" bodystart="23" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__freq__frame_1ac43ee3a59bc9c262467301b061cdffd8" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_freq_frame</scope><name>make</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__freq__frame_1aef906d3a08c10612fea09031c085908d" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_freq_frame</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_3f1978cb773587408f2f2bd2f3586c09" kind="dir">
+    <compoundname>docstrings</compoundname>
+    <innerfile refid="rx__deqam__pydoc__template_8h">rx_deqam_pydoc_template.h</innerfile>
+    <innerfile refid="rx__fft__pydoc__template_8h">rx_fft_pydoc_template.h</innerfile>
+    <innerfile refid="rx__frame__detect__pydoc__template_8h">rx_frame_detect_pydoc_template.h</innerfile>
+    <innerfile refid="rx__frame__equalization__csi__pydoc__template_8h">rx_frame_equalization_csi_pydoc_template.h</innerfile>
+    <innerfile refid="tx__freq__frame__pydoc__template_8h">tx_freq_frame_pydoc_template.h</innerfile>
+    <innerfile refid="tx__ifft__pydoc__template_8h">tx_ifft_pydoc_template.h</innerfile>
+    <innerfile refid="tx__qam__source__rand__pydoc__template_8h">tx_qam_source_rand_pydoc_template.h</innerfile>
+    <innerfile refid="tx__time__frame__pydoc__template_8h">tx_time_frame_pydoc_template.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cnss/gr-mmwave_bw/python/mmwave_bw/bindings/docstrings/"/>
+  </compounddef>
+</doxygen>

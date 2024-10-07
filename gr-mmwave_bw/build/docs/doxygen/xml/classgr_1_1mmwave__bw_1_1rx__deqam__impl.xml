@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mmwave__bw_1_1rx__deqam__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mmwave_bw::rx_deqam_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mmwave__bw_1_1rx__deqam" prot="public" virt="non-virtual">gr::mmwave_bw::rx_deqam</basecompoundref>
+    <includes refid="rx__deqam__impl_8h" local="no">rx_deqam_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1ad3e7578ca37ac65bb18beb29551738c7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::rx_deqam_impl::qam_order</definition>
+        <argsstring></argsstring>
+        <name>qam_order</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" line="20" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1a17ddd370736e2b929b044d4e5327ad9c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_deqam_impl::vec_1</definition>
+        <argsstring>(cpx) bpsk</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type><ref refid="para_8h_1a012ab219a16e5eed65c0644a719ffb82" kindref="member">cpx</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1a65f39b14e99c44aee8bdcc69322a3295" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_deqam_impl::vec_1</definition>
+        <argsstring>(cpx) qpsk</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type><ref refid="para_8h_1a012ab219a16e5eed65c0644a719ffb82" kindref="member">cpx</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1a3e3990079c4f2d2be2141fc0059c8a33" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_deqam_impl::vec_1</definition>
+        <argsstring>(cpx) qam16</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type><ref refid="para_8h_1a012ab219a16e5eed65c0644a719ffb82" kindref="member">cpx</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" line="25" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1a0facd9949a4e3b240f47591eca84b1e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_deqam_impl::rx_deqam_impl</definition>
+        <argsstring>(int qam_order)</argsstring>
+        <name>rx_deqam_impl</name>
+        <param>
+          <type>int</type>
+          <declname>qam_order</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" line="28" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1aad9871605412cc2d749ba02b9a88aa05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::rx_deqam_impl::~rx_deqam_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~rx_deqam_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" line="29" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1a2e3f7ea40c00c8ba5fb2439a58f8444a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::mmwave_bw::rx_deqam_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" line="32" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1aa76f6936a93a9f32de80bb1e269ab62f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::rx_deqam_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" line="34" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>gr::mmwave_bw::rx_deqam</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__deqam"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::rx_deqam_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::mmwave_bw::rx_deqam</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__deqam"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="1">
+        <label>gr::mmwave_bw::rx_deqam_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" line="17" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/rx_deqam_impl.h" bodystart="18" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1a2e3f7ea40c00c8ba5fb2439a58f8444a" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_deqam_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1aa76f6936a93a9f32de80bb1e269ab62f" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_deqam_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__deqam_1a388bbe13ed31f52c435366c3d23518ee" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_deqam_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1ad3e7578ca37ac65bb18beb29551738c7" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_deqam_impl</scope><name>qam_order</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1a0facd9949a4e3b240f47591eca84b1e0" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_deqam_impl</scope><name>rx_deqam_impl</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__deqam_1a77b219ebacfcd4ab8ed167fe049abe01" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_deqam_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1a17ddd370736e2b929b044d4e5327ad9c" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_deqam_impl</scope><name>vec_1</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1a65f39b14e99c44aee8bdcc69322a3295" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_deqam_impl</scope><name>vec_1</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1a3e3990079c4f2d2be2141fc0059c8a33" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::rx_deqam_impl</scope><name>vec_1</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1rx__deqam__impl_1aad9871605412cc2d749ba02b9a88aa05" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::rx_deqam_impl</scope><name>~rx_deqam_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

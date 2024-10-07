@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::mmwave_bw::tx_qam_source_rand_impl</compoundname>
+    <basecompoundref refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand" prot="public" virt="non-virtual">gr::mmwave_bw::tx_qam_source_rand</basecompoundref>
+    <includes refid="tx__qam__source__rand__impl_8h" local="no">tx_qam_source_rand_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl_1ad8ecca3cbc59ad44c78cc1a3844d8469" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::tx_qam_source_rand_impl::numqam</definition>
+        <argsstring></argsstring>
+        <name>numqam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/tx_qam_source_rand_impl.h" line="26" column="12" bodyfile="/home/cnss/gr-mmwave_bw/lib/tx_qam_source_rand_impl.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl_1aa41bb5aa069d12e4502e3176e8b0b2eb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::tx_qam_source_rand_impl::vec_1</definition>
+        <argsstring>(cpx) qam</argsstring>
+        <name>vec_1</name>
+        <param>
+          <type><ref refid="para_8h_1a012ab219a16e5eed65c0644a719ffb82" kindref="member">cpx</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/tx_qam_source_rand_impl.h" line="25" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl_1a8eb743fd76209802e310a5e34ab7318c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::tx_qam_source_rand_impl::tx_qam_source_rand_impl</definition>
+        <argsstring>(int num_of_qam)</argsstring>
+        <name>tx_qam_source_rand_impl</name>
+        <param>
+          <type>int</type>
+          <declname>num_of_qam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/tx_qam_source_rand_impl.h" line="28" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl_1a3a9c01913d0820eab7a786c85b364ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::mmwave_bw::tx_qam_source_rand_impl::~tx_qam_source_rand_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~tx_qam_source_rand_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/tx_qam_source_rand_impl.h" line="29" column="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl_1a168607753c3d1a8d8629da878230a5e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::mmwave_bw::tx_qam_source_rand_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/tx_qam_source_rand_impl.h" line="32" column="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::mmwave_bw::tx_qam_source_rand_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::mmwave_bw::tx_qam_source_rand</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::mmwave_bw::tx_qam_source_rand_impl</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="2">
+        <label>gr::mmwave_bw::tx_qam_source_rand</label>
+        <link refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/cnss/gr-mmwave_bw/lib/tx_qam_source_rand_impl.h" line="22" column="5" bodyfile="/home/cnss/gr-mmwave_bw/lib/tx_qam_source_rand_impl.h" bodystart="23" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand_1abe4f763c2229af03dcbdbfa17b3c3c27" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_qam_source_rand_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl_1ad8ecca3cbc59ad44c78cc1a3844d8469" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::tx_qam_source_rand_impl</scope><name>numqam</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand_1a480ddfda7b479444e7945a1afd932fd3" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_qam_source_rand_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl_1a8eb743fd76209802e310a5e34ab7318c" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_qam_source_rand_impl</scope><name>tx_qam_source_rand_impl</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl_1aa41bb5aa069d12e4502e3176e8b0b2eb" prot="private" virt="non-virtual"><scope>gr::mmwave_bw::tx_qam_source_rand_impl</scope><name>vec_1</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl_1a168607753c3d1a8d8629da878230a5e1" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_qam_source_rand_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1mmwave__bw_1_1tx__qam__source__rand__impl_1a3a9c01913d0820eab7a786c85b364ddf" prot="public" virt="non-virtual"><scope>gr::mmwave_bw::tx_qam_source_rand_impl</scope><name>~tx_qam_source_rand_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

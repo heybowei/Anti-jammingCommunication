@@ -1,0 +1,11 @@
+This is the mmwave_bw-write-a-block package meant as a guide to building
+out-of-tree packages. To use the mmwave_bw blocks, the Python namespaces
+is in 'mmwave_bw', which is imported as:
+
+    import mmwave_bw
+
+See the Doxygen documentation for details about the blocks available
+in this package. A quick listing of the details can be found in Python
+after importing by using:
+
+    help(mmwave_bw)

@@ -1,0 +1,85 @@
+id: mmwave_bw_rx_frame_equalization_csi
+label: rx_frame_equalization_csi
+category: '[mmwave_bw]'
+
+templates:
+  imports: from gnuradio import mmwave_bw
+  make: mmwave_bw.rx_frame_equalization_csi(${num_ant}, ${num_stm}, ${samp_rate}, ${fft_size}, ${num_ofdm_per_frame}, ${dec_alg}, ${step_size}, ${vht_en}, ${num_sc_pha_noise})
+
+#  Make one 'parameters' list entry for every parameter you want settable from the GUI.
+#     Keys include:
+#     * id (makes the value accessible as keyname, e.g. in the make entry)
+#     * label (label shown in the GUI)
+#     * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
+#     * default
+parameters:
+- id: num_ant
+  label: num_ant
+  dtype: int
+  default: num_ant
+- id: num_stm
+  label: num_stream
+  dtype: int
+  default: num_stm  
+- id: samp_rate
+  label: samp_rate
+  dtype: float
+  default: samp_rate
+- id: fft_size
+  label: fft_size
+  dtype: int
+  default: fft_size
+- id: num_ofdm_per_frame
+  label: num_ofdm_per_frame
+  dtype: int
+  default: num_ofdm_per_frame  
+- id: dec_alg
+  label: dec_alg
+  dtype: int
+  default: 1
+  options: [0, 1, 2, 3]
+  option_labels: [none, SISO ZF, MIMO ZF, Blind MMSE]
+- id: step_size
+  label: step_size
+  dtype: int
+  default: 2  
+- id: vht_en
+  label: VHT preamble
+  dtype: int
+  default: vht_en 
+  options: [0, 1]
+  option_labels: [disable, enable]  
+- id: num_sc_pha_noise
+  label: phase noise guard
+  dtype: int
+  default: num_sc_pha_noise    
+  options: [0, 1, 2, 3, 4, 5, 6] 
+  option_labels: [no, 1 sc, 2 sc, 3 sc, 4 sc, 5 sc, 6 sc] 
+#- id: ...
+#  label: ...
+#  dtype: ...
+
+#  Make one 'inputs' list entry per input and one 'outputs' list entry per output.
+#  Keys include:
+#      * label (an identifier for the GUI)
+#      * domain (optional - stream or message. Default is stream)
+#      * dtype (e.g. int, float, complex, byte, short, xxx_vector, ...)
+#      * vlen (optional - data stream vector length. Default is 1)
+#      * optional (optional - set to 1 for optional inputs. Default is 0)
+inputs:
+- label: in
+  domain: stream
+  dtype: complex
+  vlen: 1
+  multiplicity: ${num_ant}
+
+outputs:
+- label: out
+  domain: stream
+  dtype: complex
+  vlen: 1
+  multiplicity: ${num_ant+1}
+
+#  'file_format' specifies the version of the GRC yml format used in the file
+#  and should usually not be changed.
+file_format: 1

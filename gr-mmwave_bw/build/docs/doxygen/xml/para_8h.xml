@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="para_8h" kind="file" language="C++">
+    <compoundname>para.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">complex</includes>
+    <includes local="no">random</includes>
+    <includes local="no">iterator</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">armadillo</includes>
+    <includedby refid="rx__deqam__impl_8h" local="yes">rx_deqam_impl.h</includedby>
+    <includedby refid="rx__fft__impl_8h" local="yes">rx_fft_impl.h</includedby>
+    <includedby refid="rx__frame__detect__impl_8h" local="yes">rx_frame_detect_impl.h</includedby>
+    <includedby refid="rx__frame__equalization__csi__impl_8h" local="yes">rx_frame_equalization_csi_impl.h</includedby>
+    <includedby refid="tx__freq__frame__impl_8h" local="yes">tx_freq_frame_impl.h</includedby>
+    <includedby refid="tx__ifft__impl_8h" local="yes">tx_ifft_impl.h</includedby>
+    <includedby refid="tx__qam__source__rand__impl_8h" local="yes">tx_qam_source_rand_impl.h</includedby>
+    <includedby refid="tx__time__frame__impl_8h" local="yes">tx_time_frame_impl.h</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>iterator</label>
+      </node>
+      <node id="8">
+        <label>armadillo</label>
+      </node>
+      <node id="7">
+        <label>fstream</label>
+      </node>
+      <node id="1">
+        <label>para.h</label>
+        <link refid="para_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>random</label>
+      </node>
+      <node id="2">
+        <label>vector</label>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="4">
+        <label>complex</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>rx_fft_impl.h</label>
+        <link refid="rx__fft__impl_8h"/>
+      </node>
+      <node id="9">
+        <label>tx_time_frame_impl.h</label>
+        <link refid="tx__time__frame__impl_8h"/>
+      </node>
+      <node id="5">
+        <label>rx_frame_equalization_csi_impl.h</label>
+        <link refid="rx__frame__equalization__csi__impl_8h"/>
+      </node>
+      <node id="8">
+        <label>tx_qam_source_rand_impl.h</label>
+        <link refid="tx__qam__source__rand__impl_8h"/>
+      </node>
+      <node id="6">
+        <label>tx_freq_frame_impl.h</label>
+        <link refid="tx__freq__frame__impl_8h"/>
+      </node>
+      <node id="1">
+        <label>para.h</label>
+        <link refid="para_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>rx_frame_detect_impl.h</label>
+        <link refid="rx__frame__detect__impl_8h"/>
+      </node>
+      <node id="2">
+        <label>rx_deqam_impl.h</label>
+        <link refid="rx__deqam__impl_8h"/>
+      </node>
+      <node id="7">
+        <label>tx_ifft_impl.h</label>
+        <link refid="tx__ifft__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classpara" prot="public">para</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="para_8h_1a012ab219a16e5eed65c0644a719ffb82" prot="public" static="no">
+        <name>cpx</name>
+        <initializer>complex&lt;float&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="14" column="9" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="para_8h_1ac8e4990d7ce38ad963d84cc80fdcb37a" prot="public" static="no">
+        <name>vec_1</name>
+        <param><defname>type</defname></param>
+        <initializer>vector&lt;type&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="22" column="9" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="para_8h_1aecf0c69d8eb0c66ce61ef1ada57db429" prot="public" static="no">
+        <name>vec_2</name>
+        <param><defname>type</defname></param>
+        <initializer>vector&lt;<ref refid="para_8h_1ac8e4990d7ce38ad963d84cc80fdcb37a" kindref="member">vec_1</ref>(type)&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="24" column="9" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="para_8h_1a195c071adc5ea78059bfa9378e451873" prot="public" static="no">
+        <name>vec_3</name>
+        <param><defname>type</defname></param>
+        <initializer>vector&lt;<ref refid="para_8h_1aecf0c69d8eb0c66ce61ef1ada57db429" kindref="member">vec_2</ref>(type)&gt;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="26" column="9" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="para_8h_1a41a87cc9abf978d48b710d72aa1b05b2" prot="public" static="no">
+        <name>new_vec_1</name>
+        <param><defname>type</defname></param>
+        <param><defname>d1</defname></param>
+        <param><defname>num</defname></param>
+        <initializer>vector&lt;type&gt;(d1,num)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="30" column="9" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="para_8h_1a1075d0874fd9cc4b0e237ace55334069" prot="public" static="no">
+        <name>new_vec_2</name>
+        <param><defname>type</defname></param>
+        <param><defname>d1</defname></param>
+        <param><defname>d2</defname></param>
+        <param><defname>num</defname></param>
+        <initializer><ref refid="para_8h_1aecf0c69d8eb0c66ce61ef1ada57db429" kindref="member">vec_2</ref>(type)(d1,<ref refid="para_8h_1a41a87cc9abf978d48b710d72aa1b05b2" kindref="member">new_vec_1</ref>(type,d2,num))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="32" column="9" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="para_8h_1a4d9c1e6681af19fb4fd70b0f8428f605" prot="public" static="no">
+        <name>new_vec_3</name>
+        <param><defname>type</defname></param>
+        <param><defname>d1</defname></param>
+        <param><defname>d2</defname></param>
+        <param><defname>d3</defname></param>
+        <param><defname>num</defname></param>
+        <initializer><ref refid="para_8h_1a195c071adc5ea78059bfa9378e451873" kindref="member">vec_3</ref>(type)(d1,<ref refid="para_8h_1a1075d0874fd9cc4b0e237ace55334069" kindref="member">new_vec_2</ref>(type,d2,d3,num))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/cnss/gr-mmwave_bw/lib/para.h" line="34" column="9" bodyfile="/home/cnss/gr-mmwave_bw/lib/para.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/cnss/gr-mmwave_bw/lib/para.h"/>
+  </compounddef>
+</doxygen>
